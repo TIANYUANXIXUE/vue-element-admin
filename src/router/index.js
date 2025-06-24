@@ -10,6 +10,7 @@ import Layout from '@/layout'
 import componentsRouter from './modules/components'
 import chartsRouter from './modules/charts'
 import tableRouter from './modules/table'
+import sourceRouter from './modules/source'
 import nestedRouter from './modules/nested'
 
 /**
@@ -189,6 +190,7 @@ export const asyncRoutes = [
   chartsRouter,
   nestedRouter,
   tableRouter,
+  sourceRouter,
 
   {
     path: '/example',
